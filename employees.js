@@ -97,7 +97,7 @@ console.log(empTwo)
 class Manager extends Employee {
     constructor(name, shifts, employees){
         super(name, shifts)
-        this.employees = [employees]
+        this.employees = employees
     }
     getEmployees(){
         console.log(`${this.name} manages ${this.employees}`)

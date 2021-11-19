@@ -35,7 +35,7 @@ const cart = [
 
 //CODE HERE
 
-const summedPrice = cart.reduce()
+const summedPrice = cart.reduce((acc, item) => acc + item, 0)
 
 console.log(summedPrice)
 
